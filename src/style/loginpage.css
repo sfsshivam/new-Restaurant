@@ -1,0 +1,128 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.log-count {
+  background-color: #ffffff;
+  width: 375px;
+  height: 524px;
+  top: 60px;
+
+  border-radius: 10px;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.log-content {
+  padding: 40px;
+}
+
+.log-img {
+  width: 80.39px;
+  height: 54px;
+  background-image: url(../images/logo1.png);
+  position: absolute;
+  top: 31px;
+  left: 160px;
+}
+
+.log-img img {
+  align-items: center;
+}
+
+.main-log-content {
+  position: absolute;
+  margin-top: 90px;
+}
+
+.main-log-content p {
+  width: 274px;
+  height: 40px;
+  font-size: 20px;
+
+  line-height: 40.39px;
+  position: absolute;
+
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+
+.email-content {
+  width: 274px;
+  height: 40px;
+
+  position: absolute;
+  margin-top: 50px;
+}
+
+.email-input input {
+  width: 300px;
+  height: 48px;
+
+  border-radius: 8px;
+  border: 1px solid #f0f1f7;
+}
+
+.email-input input::placeholder {
+  color: #f0f1f7;
+  font-size: 14px;
+}
+
+.email-password {
+  width: 274px;
+  height: 40px;
+
+  position: absolute;
+  margin-top: 130px;
+}
+
+.forget-password {
+  width: 274px;
+  height: 40px;
+
+  position: absolute;
+  margin-top: 210px;
+}
+
+.forget-password button {
+  background: transparent;
+  border-style: none;
+}
+
+.forget-password {
+  width: 300px;
+  height: 48px;
+}
+
+.sign-button {
+  position: absolute;
+  top: 290px;
+  justify-content: space-between;
+}
+
+.sign-button button {
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #f55a2c;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+.contact-us {
+  position: absolute;
+  top: 350px;
+  width: 215px;
+  height: 40px;
+  left: 40px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
